@@ -68,7 +68,7 @@
                             <li><a>Home</a></li>
                             <li><a>About</a></li>
                             <li><a>Shop</a></li>
-                            <li ><a>All Fruits</a></li>
+                            <li><a>All Fruits</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
 
                 <div class="navbar-end hidden lg:flex">
                     <div class="bg-white flex justify-between items-center p-0 lg:px-6 lg:py-3 rounded-full gap-2 ">
-                        <input class="" type="text" placeholder="Search here">
+                        <input class="outline-0" type="text" placeholder="Search here">
                         <span>
                             <i class="fa-solid fa-magnifying-glass">
                             </i>
@@ -95,46 +95,100 @@
 
     <main class="container mx-auto px-2">
         <!-- banner section -->
-         <div class="mt-12">
+        <div class="mt-12">
             <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-                    class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
+                <div id="slide1"
+                    class="carousel-item relative w-full bg-[linear-gradient(180deg,rgba(18,18,18,1)-14.42%,rgba(18,18,18,0.00)100%),url(./images/banner1.png)] h-[50vh] flex items-center justify-center">
+                    <div class="absolute text-white top-2 right-2 lg:top-10 lg:right-10 bg-red-500 px-5 py-3 rounded-xl">
+                        <h6 class="">
+                            Hot Deal
+                        </h6>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl lg:text-7xl text-white font-bold text-center">
+                            Exotic tastes at your <br> doorstep
+                        </h1>
+                        <p class="text-2xl text-white font-bold text-center mt-2" >
+                            We supply highly quality organic products
+                        </p>
+                        <div class="flex justify-center">
+                            <button class="bg-red-400 border-none text-white text-lg px-8 py-5 rounded-lg mt-12">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                    class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                  </div>
+
+                <div id="slide2"
+                    class="carousel-item relative w-full bg-[linear-gradient(180deg,rgba(18,18,18,1)-14.42%,rgba(18,18,18,0.00)100%),url(./images/banner2.png)] h-[50vh] flex items-center justify-center">
+                    <div>
+                        <h1 class="text-3xl lg:text-7xl text-white font-bold text-center">
+                            Exotic tastes at your <br> doorstep
+                        </h1>
+                        <p class="text-2xl text-white font-bold text-center mt-2" >
+                            We supply highly quality organic products
+                        </p>
+                        <div class="flex justify-center">
+                            <button class="bg-red-400 border-none text-white text-lg px-8 py-5 rounded-lg mt-12">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
                 </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                    class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                  </div>
+
+                <div id="slide3"
+                    class="carousel-item relative w-full bg-[linear-gradient(180deg,rgba(18,18,18,1)-14.42%,rgba(18,18,18,0.00)100%),url(./images/banner3.png)] h-[50vh] flex items-center justify-center">
+                    <div>
+                        <h1 class="text-3xl lg:text-7xl text-white font-bold text-center">
+                            Exotic tastes at your <br> doorstep
+                        </h1>
+                        <p class="text-2xl text-white font-bold text-center mt-2" >
+                            We supply highly quality organic products
+                        </p>
+                        <div class="flex justify-center">
+                            <button class="bg-red-400 border-none text-white text-lg px-8 py-5 rounded-lg mt-12">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
                 </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                    class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+
+                <div id="slide4"
+                class="carousel-item relative w-full bg-[linear-gradient(180deg,rgba(18,18,18,1)-14.42%,rgba(18,18,18,0.00)100%),url(./images/banner4.png)] h-[50vh] flex items-center justify-center">
+                <div>
+                    <h1 class="text-3xl lg:text-7xl text-white font-bold text-center">
+                        Exotic tastes at your <br> doorstep
+                    </h1>
+                    <p class="text-2xl text-white font-bold text-center mt-2" >
+                        We supply highly quality organic products
+                    </p>
+                    <div class="flex justify-center">
+                        <button class="bg-red-400 border-none text-white text-lg px-8 py-5 rounded-lg mt-12">Shop Now</button>
+                    </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide3" class="btn btn-circle">❮</a>
                     <a href="#slide1" class="btn btn-circle">❯</a>
-                  </div>
                 </div>
-              </div>
-         </div>
+            </div>
+            </div>
+            <div class="h-[20vh] w-2/3 mx-auto bg-white -translate-y-24 py-5 hidden lg:flex items-center justify-center">
+                <div class="flex items-center justify-center gap-3">
+                    <img src="images/fruit1.png" alt="">
+                    <img src="images/fruit2.png" alt="">
+                    <img src="images/fruit3.png" alt="">
+                    <img src="images/fruit4.png" alt="">
+                    <img src="images/fruit5.png" alt="">
+                    
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
